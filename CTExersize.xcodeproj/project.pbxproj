@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DB9A71F14818ECE008652DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB9A71E14818ECE008652DF /* UIKit.framework */; };
+		6DB9A72114818ECE008652DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB9A72014818ECE008652DF /* Foundation.framework */; };
+		6DB9A72314818ECE008652DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB9A72214818ECE008652DF /* CoreGraphics.framework */; };
+		6DB9A72914818ECE008652DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DB9A72714818ECE008652DF /* InfoPlist.strings */; };
+		6DB9A72B14818ECE008652DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9A72A14818ECE008652DF /* main.m */; };
+		6DB9A72F14818ECE008652DF /* CTExersizeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9A72E14818ECE008652DF /* CTExersizeAppDelegate.m */; };
+		6DB9A73214818ECE008652DF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB9A73014818ECE008652DF /* MainStoryboard.storyboard */; };
+		6DB9A73514818ECE008652DF /* CTExersizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9A73414818ECE008652DF /* CTExersizeViewController.m */; };
+		6DB9A73C14818EDB008652DF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB9A73B14818EDB008652DF /* CoreText.framework */; };
+		6DB9A73F14818F0A008652DF /* CTExercizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9A73E14818F0A008652DF /* CTExercizeView.m */; };
+		6DB9A74114818F5E008652DF /* space.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DB9A74014818F5E008652DF /* space.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6DB9A71A14818ECD008652DF /* CTExersize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTExersize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB9A71E14818ECE008652DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6DB9A72014818ECE008652DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6DB9A72214818ECE008652DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6DB9A72614818ECE008652DF /* CTExersize-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CTExersize-Info.plist"; sourceTree = "<group>"; };
+		6DB9A72814818ECE008652DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6DB9A72A14818ECE008652DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DB9A72C14818ECE008652DF /* CTExersize-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTExersize-Prefix.pch"; sourceTree = "<group>"; };
+		6DB9A72D14818ECE008652DF /* CTExersizeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTExersizeAppDelegate.h; sourceTree = "<group>"; };
+		6DB9A72E14818ECE008652DF /* CTExersizeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTExersizeAppDelegate.m; sourceTree = "<group>"; };
+		6DB9A73114818ECE008652DF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6DB9A73314818ECE008652DF /* CTExersizeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTExersizeViewController.h; sourceTree = "<group>"; };
+		6DB9A73414818ECE008652DF /* CTExersizeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTExersizeViewController.m; sourceTree = "<group>"; };
+		6DB9A73B14818EDB008652DF /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		6DB9A73D14818F0A008652DF /* CTExercizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTExercizeView.h; sourceTree = "<group>"; };
+		6DB9A73E14818F0A008652DF /* CTExercizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTExercizeView.m; sourceTree = "<group>"; };
+		6DB9A74014818F5E008652DF /* space.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = space.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DB9A71714818ECD008652DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB9A73C14818EDB008652DF /* CoreText.framework in Frameworks */,
+				6DB9A71F14818ECE008652DF /* UIKit.framework in Frameworks */,
+				6DB9A72114818ECE008652DF /* Foundation.framework in Frameworks */,
+				6DB9A72314818ECE008652DF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DB9A70F14818ECD008652DF = {
+			isa = PBXGroup;
+			children = (
+				6DB9A72414818ECE008652DF /* CTExersize */,
+				6DB9A71D14818ECD008652DF /* Frameworks */,
+				6DB9A71B14818ECD008652DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DB9A71B14818ECD008652DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DB9A71A14818ECD008652DF /* CTExersize.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DB9A71D14818ECD008652DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DB9A73B14818EDB008652DF /* CoreText.framework */,
+				6DB9A71E14818ECE008652DF /* UIKit.framework */,
+				6DB9A72014818ECE008652DF /* Foundation.framework */,
+				6DB9A72214818ECE008652DF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DB9A72414818ECE008652DF /* CTExersize */ = {
+			isa = PBXGroup;
+			children = (
+				6DB9A72D14818ECE008652DF /* CTExersizeAppDelegate.h */,
+				6DB9A72E14818ECE008652DF /* CTExersizeAppDelegate.m */,
+				6DB9A73014818ECE008652DF /* MainStoryboard.storyboard */,
+				6DB9A73314818ECE008652DF /* CTExersizeViewController.h */,
+				6DB9A73414818ECE008652DF /* CTExersizeViewController.m */,
+				6DB9A73D14818F0A008652DF /* CTExercizeView.h */,
+				6DB9A73E14818F0A008652DF /* CTExercizeView.m */,
+				6DB9A72514818ECE008652DF /* Supporting Files */,
+			);
+			path = CTExersize;
+			sourceTree = "<group>";
+		};
+		6DB9A72514818ECE008652DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DB9A74014818F5E008652DF /* space.jpg */,
+				6DB9A72614818ECE008652DF /* CTExersize-Info.plist */,
+				6DB9A72714818ECE008652DF /* InfoPlist.strings */,
+				6DB9A72A14818ECE008652DF /* main.m */,
+				6DB9A72C14818ECE008652DF /* CTExersize-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DB9A71914818ECD008652DF /* CTExersize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB9A73814818ECE008652DF /* Build configuration list for PBXNativeTarget "CTExersize" */;
+			buildPhases = (
+				6DB9A71614818ECD008652DF /* Sources */,
+				6DB9A71714818ECD008652DF /* Frameworks */,
+				6DB9A71814818ECD008652DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTExersize;
+			productName = CTExersize;
+			productReference = 6DB9A71A14818ECD008652DF /* CTExersize.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB9A71114818ECD008652DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 6DB9A71414818ECD008652DF /* Build configuration list for PBXProject "CTExersize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6DB9A70F14818ECD008652DF;
+			productRefGroup = 6DB9A71B14818ECD008652DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DB9A71914818ECD008652DF /* CTExersize */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DB9A71814818ECD008652DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB9A72914818ECE008652DF /* InfoPlist.strings in Resources */,
+				6DB9A73214818ECE008652DF /* MainStoryboard.storyboard in Resources */,
+				6DB9A74114818F5E008652DF /* space.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DB9A71614818ECD008652DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB9A72B14818ECE008652DF /* main.m in Sources */,
+				6DB9A72F14818ECE008652DF /* CTExersizeAppDelegate.m in Sources */,
+				6DB9A73514818ECE008652DF /* CTExersizeViewController.m in Sources */,
+				6DB9A73F14818F0A008652DF /* CTExercizeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6DB9A72714818ECE008652DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DB9A72814818ECE008652DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6DB9A73014818ECE008652DF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DB9A73114818ECE008652DF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DB9A73614818ECE008652DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6DB9A73714818ECE008652DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DB9A73914818ECE008652DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CTExersize/CTExersize-Prefix.pch";
+				INFOPLIST_FILE = "CTExersize/CTExersize-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6DB9A73A14818ECE008652DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CTExersize/CTExersize-Prefix.pch";
+				INFOPLIST_FILE = "CTExersize/CTExersize-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DB9A71414818ECD008652DF /* Build configuration list for PBXProject "CTExersize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB9A73614818ECE008652DF /* Debug */,
+				6DB9A73714818ECE008652DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB9A73814818ECE008652DF /* Build configuration list for PBXNativeTarget "CTExersize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB9A73914818ECE008652DF /* Debug */,
+				6DB9A73A14818ECE008652DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB9A71114818ECD008652DF /* Project object */;
+}
